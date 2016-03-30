@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D76920D3-DE23-289B-2446-06360AC627B1}") = "demo-loadbalancing-unity", "Assembly-CSharp-firstpass.csproj", "{FBD6C161-F2EB-B91E-4E06-CD2FFEFA74DD}"
+EndProject
+Project("{D76920D3-DE23-289B-2446-06360AC627B1}") = "demo-loadbalancing-unity", "Assembly-CSharp.csproj", "{AA851EC9-44B4-2E22-26A0-E0D4023125ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD6C161-F2EB-B91E-4E06-CD2FFEFA74DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD6C161-F2EB-B91E-4E06-CD2FFEFA74DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD6C161-F2EB-B91E-4E06-CD2FFEFA74DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD6C161-F2EB-B91E-4E06-CD2FFEFA74DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA851EC9-44B4-2E22-26A0-E0D4023125ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA851EC9-44B4-2E22-26A0-E0D4023125ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA851EC9-44B4-2E22-26A0-E0D4023125ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA851EC9-44B4-2E22-26A0-E0D4023125ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
