@@ -32,6 +32,8 @@ public class DemoGame : LoadBalancingClient
     {
         Hashtable evData = new Hashtable();
         evData[(byte)1] = Random.onUnitSphere;
+
+		// TODO: handle send message
         this.loadBalancingPeer.OpRaiseEvent(1, evData, true, null);
     }
 
@@ -82,6 +84,8 @@ public class DemoGame : LoadBalancingClient
 
     public override void OnEvent(EventData photonEvent)
     {
+		// TODO: handle message received
+
         base.OnEvent(photonEvent);
 
         switch (photonEvent.Code)
